@@ -7,6 +7,6 @@ internal class RectangleTest {
 
     @Test
     fun `should be a square`() {
-        assertThat(Rectangle(4, 4).isSquare).isTrue();
+        assertThat(Rectangle(4, 4).isSquare).isTrue()
     }
 }
